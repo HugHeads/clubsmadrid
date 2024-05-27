@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    padding-bottom: 3000px;
+    background-color: #000000;
+}
+
+p{
+    font-family: Raleway, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    color:#FFEE93;
+}
