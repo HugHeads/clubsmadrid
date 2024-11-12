@@ -1,66 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madrid Disco</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16583153427">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-16583153427');
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clubs Madrid</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
+    <!-- Logo o Título de la página -->
     <header>
-        <div class="header">
-            <div >
-                <h1 class="titulo">Discotecas en Madrid</h1>
-            </div>
-            
-            <div>
-                <img src="MADRID/2.png" alt="logo" class="logo">
-            </div>
-        </div>
+      <h1>Clubs Madrid</h1>
     </header>
-    <div class="container">
-        <!-- 
-            <div id="fourvenues-iframe" style="width: 100%; min-height: 0px; position: relative; overflow: hidden;"><div id="fourvenues-iframe-anchor" style="width: 100%; height: 0px; border: 0px; position: absolute; top: -100px;"></div><iframe id="iframeFourvenues1716833007054" src="https://www.fourvenues.com/iframe/heads" width="100%" scrolling="no" seamless="seamless" height="1019px" marginheight="0" marginwidth="0" frameborder="0" horizontalscrolling="no" verticalscrolling="no" style="border: none; overflow-y: hidden; height: 1019px;">
-            </iframe>
-        -->
-        <section class="boton_entrada">
 
-            <a class="comprar_entradas" href="https://www.fourvenues.com/es/heads">
-                Comprar Entradas
-            </a>
-        </section>
-        <div class="botones_contacto">
-            <h2 class="texto_tit">¿DUDAS?</h2>
-            <p class="texto_p">Preguntanos en nuestras rrss para ayudarte. Ofertas en mesas, QRS gratis, recomendaciones y mucho más!!</p>
-            <div class="rrss">
+    <!-- Botón de comprar entradas -->
+    <section class="main-button">
+      <a href="https://www.fourvenues.com/es/heads" target="_blank" class="button">
+        Comprar Entradas
+      </a>
+    </section>
 
-                <div class="whatsapp">                
-                    <a href="https://api.whatsapp.com/send/?phone=34672563828">
-                        <img src="MADRID/whatsapp_101778.png" alt="whatsapp" width="60px">
-                    </a>
-                </div>
-                <div class="instagram">                
-                    <a href="https://www.instagram.com/madridgossip/">
-                        <img src="MADRID/Instagram-Icon.png" alt="instagram" width="60px">
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
+    <!-- Botones de grupos de WhatsApp -->
+    <section class="whatsapp-groups">
+      <h2>Únete a los grupos de WhatsApp:</h2>
+      <a href="https://chat.whatsapp.com/LnZpJ1zJypc6vdVfr3pw88" target="_blank" class="whatsapp-group">
+        Grupo Fiestas Madrid
+      </a>
+      <a href="https://chat.whatsapp.com/GZvPJTWCRnA4d27oQ3EXEO" target="_blank" class="whatsapp-group">
+        Grupo Nochevieja
+      </a>
+    </section>
+
+    <!-- Iconos de contacto (WhatsApp e Instagram) -->
+    <footer>
+      <a href="https://api.whatsapp.com/send/?phone=%2B34672563828&text&type=phone_number&app_absent=0" target="_blank" class="icon whatsapp-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+      </a>
+      <a href="https://www.instagram.com/madridgossip" target="_blank" class="icon instagram-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
